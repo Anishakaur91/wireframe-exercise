@@ -1,0 +1,29 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 760px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 440px;
+  margin-left: 2rem;
+}
